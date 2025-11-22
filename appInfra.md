@@ -21,7 +21,7 @@ npm run lint     # Check code quality
 npm run format   # Format code with Prettier
 ```
 
-# How Your SDK Works
+# How The SDK Works
 
 This project serves **two purposes**:
 
