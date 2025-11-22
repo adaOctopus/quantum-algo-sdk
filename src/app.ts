@@ -1,6 +1,6 @@
 // Express app configuration and middleware setup
 import express, { Application, Request, Response, NextFunction } from 'express';
-import routes from './routes';
+import quantumRoutes from './routes/quantum.routes';
 
 const app: Application = express();
 
@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
-app.use(routes);
+app.use('/api/quantum', quantumRoutes);
 
 // Health check route
 app.get('/health', (req: Request, res: Response) => {
