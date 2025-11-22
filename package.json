@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/adaOctopus/quantum-algo-sdk/issues"
   },
-  "homepage": "https://github.com/adaOctopus/quantum-algo-sdk#readme"
+  "homepage": "https://github.com/adaOctopus/quantum-algo-sdk#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@q5m/q5m": "^0.1.1",
+    "axios": "^1.13.2",
+    "quantum-tensors": "^0.4.15",
+    "ts-quantum": "^0.9.0"
+  }
 }
